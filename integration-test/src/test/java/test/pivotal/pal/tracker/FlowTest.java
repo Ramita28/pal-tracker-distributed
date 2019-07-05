@@ -63,6 +63,7 @@ public class FlowTest {
         timesheetsServer.startWithDatabaseName("tracker_timesheets_test");
         ApplicationServer.waitOnPorts("8881", "8882", "8883", "8884");
         TestScenarioSupport.clearAllDatabases();
+        
     }
 
     @After
